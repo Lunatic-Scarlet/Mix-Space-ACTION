@@ -1,7 +1,11 @@
+echo "此脚本已停止维护，请勿使用，谢谢"
+exit 0
+
+# Kami clone and fix
+
 # install rimraf
 sudo npm install rimraf -g
 
-# Kami clone and fix
 echo "——————————————————————Kami——————————————————————"
 echo "|————————————————————————————————————————————————|"
 git clone https://github.com/mx-space/kami

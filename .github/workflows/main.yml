@@ -12,6 +12,8 @@ jobs:
           uses: actions/setup-node@v2.1.4
         - name: Build server
           run: |
+            echo "此脚本已停止维护，请勿使用，谢谢"
+            exit 0
             git clone https://github.com/mx-space/server
             sudo npm install rimraf -g
             cd server
@@ -39,6 +41,8 @@ jobs:
           uses: actions/setup-node@v2.1.4
         - name: Build kami
           run: |
+            echo "此脚本已停止维护，请勿使用，谢谢"
+            exit 0
             git clone https://github.com/mx-space/kami
             sudo npm install rimraf -g
             cd kami
@@ -72,6 +76,8 @@ jobs:
           uses: actions/setup-node@v2.1.4
         - name: Build admin
           run: |
+            echo "此脚本已停止维护，请勿使用，谢谢"
+            exit 0
             git clone https://github.com/mx-space/admin
             sudo npm install rimraf -g
             cd admin
@@ -99,6 +105,8 @@ jobs:
           uses: actions/setup-node@v2.1.4
         - name: Build admin
           run: |
+            echo "此脚本已停止维护，请勿使用，谢谢"
+            exit 0
             git clone https://github.com/mx-space/admin-vue3
             sudo npm install rimraf -g
             cd /home/runner/work/Mix-Space-ACTION/Mix-Space-ACTION/admin-vue3
